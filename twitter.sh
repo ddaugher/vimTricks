@@ -1,7 +1,7 @@
 #!/bin/sh
 
-user="vimtricks"
-pass="vim123"
+user=""
+pass=""
 curl="/usr/bin/curl"
 
 LINES=`wc -l $1 | awk '{ print ($1 + 1) }'`
